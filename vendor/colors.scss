@@ -1,0 +1,22 @@
+// Scss Document
+// vendor/partial_normalize.scss
+// _colors.scss
+$primary-font-color: #575757;
+$secondary-font-color: #DB8D33;
+$dark-background: #414141;
+$darker-background: #150300;
+
+@import "vendor/normalize-webdesign.css";
+@import "colors";
+
+.text-primary {
+        color: $primary-font-color;
+    }
+
+    .text-secondary {
+        color: $secondary-font-color;
+    }
+
+    .dark-bg {
+        background-color: $dark-background;
+    }
