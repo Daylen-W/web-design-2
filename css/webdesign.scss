@@ -1,3 +1,21 @@
 body{
     background-color:red;
 }
+nav {
+    background-color: black; 
+ul { 
+    li { list-style: none; 
+display: inline; 
+padding: 5px;
+a {
+    color: $primary-color
+    text-decoration: none; 
+    }
+}
+}
+.primary {
+    background-color: $primary-color;
+} 
+.primary-two {
+    background-color: $primary-color;  
+}
