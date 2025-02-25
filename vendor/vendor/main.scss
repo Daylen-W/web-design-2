@@ -1,0 +1,27 @@
+@use "./vendor/_normalize.scss";
+
+
+@media (min-width: 768px) {
+    .container {
+      background-color: yellow;
+    }
+  }
+  @media (min-width: 1024px) {
+    .container {
+      background-color: navy;
+    }
+    nav {
+        ul {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+        }
+        li { 
+          display: inline-block; 
+          }
+        a {
+          display: block;
+          padding: 5px 10px;
+          text-decoration: none;
+          color: orange;
+        }
